@@ -7,7 +7,7 @@ import Profile from "./Profile";
 function Main(props) {
   const [projects, setProjects] = useState(null);
 
-  const URL = " https://casatrack-a21bc87c87bc.herokuapp.com";
+  const URL = " https://casatrack-a21bc87c87bc.herokuapp.com/projects";
 
   // Function to fetch projects
   const fetchProjects = async () => {
