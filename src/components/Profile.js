@@ -35,7 +35,7 @@ function Profile() {
         <>
           <h2>Welcome, {user.username}!</h2>
           <p>Email: {user.email}</p>
-          {/* Add more user information as needed */}
+          
         </>
       ) : (
         <p>Loading user data...</p>

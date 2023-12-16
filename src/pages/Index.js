@@ -11,7 +11,7 @@ function Index(props) {
     endDate: "",
     status: "",
     budget: 0,
-    imageFile: null, // Add imageFile property to store the selected image
+    imageFile: null, 
   });
 
   // handleChange function for form
@@ -32,7 +32,7 @@ function Index(props) {
       endDate: "",
       status: "",
       budget: 0,
-      imageFile: null, // Clear imageFile after submission
+      imageFile: null, 
     });
   };
 
